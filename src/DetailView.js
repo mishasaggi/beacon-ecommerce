@@ -3,12 +3,12 @@ var Product = require("./ProductModel")
 
 module.exports = {
     oninit: function(vnode) {Product.loadDetailed(vnode.attrs.id)},
-    view: function() {
-
+    view: function(vnode) {
+      console.log('vnode is ', vnode.attrs.id);
       return [ m(".detail-wrapper", [
           m(".pictures",
               {
-                'style': { 'background-image' : 'url(\"src/assets/images/1001.jpg\")',
+                'style': { 'background-image' : 'url(\"src/assets/images/' + vnode.attrs.id +'.jpg\")',
                             'background-position': 'center center',
                             height: '400px',
                             width: '400px'}
