@@ -41,8 +41,12 @@ var Product = {
             rating: '4.5',
             short: 'useful and cool looking',
             long: 'I love cheese, especially airedale queso. Cheese and biscuits halloumi cauliflower cheese cottage cheese swiss boursin fondue caerphilly. Cow port-salut camembert de normandie macaroni cheese feta who moved my cheese babybel boursin. Red leicester roquefort boursin squirty cheese jarlsberg blue castello caerphilly chalk and cheese. Lancashire.',
-            dummyreview: { rating: 5,
-              review: "We bought these bridges to go with the August Smart Lock. The bridge allows Alexa to operate the lock. Note: Alexa will not unlock the door on command but she will lock it. Makes sense - you wouldn't want a thief tell her to unlock the door and have her do it... The bridge plugs into an outlet and has to be within 15 feet or so of the lock, the closer the better. This is the only inconvenience of the bridge. Depending on where you install the lock, you might be limited in options on where to plug the bridge in. The bridge was easy to install. The August software, on the smart phone, walks you through it. The bridge also has a reset button if installation doesn't work out well the first time. The bridge was a necessity and we would have preferred not have to use it, but the door locks would not otherwise work with Alexa."}
+            reviews: [{ rating: 5,
+                        review: "We bought these bridges to go with the August Smart Lock. The bridge allows Alexa to operate the lock. Note: Alexa will not unlock the door on command but she will lock it. Makes sense - you wouldn't want a thief tell her to unlock the door and have her do it... The bridge plugs into an outlet and has to be within 15 feet or so of the lock, the closer the better. This is the only inconvenience of the bridge. Depending on where you install the lock, you might be limited in options on where to plug the bridge in. The bridge was easy to install. The August software, on the smart phone, walks you through it. The bridge also has a reset button if installation doesn't work out well the first time. The bridge was a necessity and we would have preferred not have to use it, but the door locks would not otherwise work with Alexa."
+                      },
+                      { rating: 4,
+                        review: "The first thing you need to understand is that this device connects to your lock over bluetooth, just like your phone does -- which is why it is required to be in close proximity to your lock."
+                      }]
         };
         return;
     }

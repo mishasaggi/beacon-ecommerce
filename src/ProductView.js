@@ -12,7 +12,7 @@ module.exports = {
                 'style': { 'background-image' : 'url(\"src/assets/images/1001.jpg\")',
                             'background-position': 'center center'}
               }, 
-              m("p.opp", product.name + " | " + product.cost +" | "+ "Rating  " + product.rating + " | " + product.short)
+              m("p.prod-details", product.name + " | " + product.cost +" | "+ "Rating  " + product.rating + " | " + product.short)
             )
         }))
     }
