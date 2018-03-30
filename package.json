@@ -1,0 +1,22 @@
+{
+  "name": "spotlight-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "bundle src/index.js --output bin/app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishasaggi/spotlight-ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishasaggi/spotlight-ecommerce/issues"
+  },
+  "homepage": "https://github.com/mishasaggi/spotlight-ecommerce#readme",
+  "dependencies": {
+    "mithril": "^1.1.6"
+  }
+}
