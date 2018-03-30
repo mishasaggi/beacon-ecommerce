@@ -76,7 +76,7 @@ p {
 }
 
 /*Product list info*/
-p {
+.prod-details {
   /*vertical-align: bottom;*/
   background: rgba(0, 0, 0, 0.65);
   padding: 4px 8px;
@@ -88,6 +88,12 @@ p {
 /* Styles for view - Details */
 
 .detail-wrapper {
+  height: 500px
+}
+
+.review-wrapper {
+  max-width: 500px
+
 }
 
 .pictures {
@@ -115,6 +121,13 @@ p {
 
 .long {
 
+}
+
+.review-text{
+  background: none;
+  color: black;  
+  margin: 0 auto;
+  font-size: 14px;
 }
 
 .button {
