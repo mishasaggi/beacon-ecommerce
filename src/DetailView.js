@@ -5,7 +5,7 @@ module.exports = {
     oninit: function(vnode) {Product.loadDetailed(vnode.attrs.id)},
     view: function(vnode) {
       console.log('vnode is ', vnode.attrs.id);
-      return [ m(".detail-wrapper", [
+      return m(".view-wrapper", [ m(".detail-wrapper", [
           m(".pictures",
               {
                 'style': { 'background-image' : 'url(\"src/assets/images/' + vnode.attrs.id +'.jpg\")',
@@ -27,6 +27,6 @@ module.exports = {
                   m("p", {class: "review-text"}, item.review)
                 ]
           }))
-      ]
+      ] )
     }
 }

@@ -7,7 +7,8 @@
 body {
   margin: 30px;
   font-family: 'Open Sans', 'sans-serif';
-  background-color: #f2f2f2;
+  /*background-color: #f2f2f2;*/
+  background-color: #595959;
   color: #444;
 }
 
@@ -56,7 +57,7 @@ p {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
-  padding: 20px;
+  padding: 1px;
   font-size: 150%;
   margin-bottom: 10px;
 }
@@ -78,37 +79,64 @@ p {
 /*Product list info*/
 .prod-details {
   /*vertical-align: bottom;*/
+  height: 80px;
   background: rgba(0, 0, 0, 0.65);
-  padding: 4px 8px;
+  padding: 4px 16px;
   color: white;
-  margin: 230px 0 0 0;
+  margin: 220px 0 0 0;
   font: 14px SansSerif;
 }
 
-.prod-details hover{
-  /*vertical-align: bottom;*/
-  background-color: cyan;
+.prod-name {
+  font-size: 16px;
+}
+
+.prod-cost {
+  font-size: 16px;
+  float: right;
+  color: gold;
+}
+
+.prod-rating {
+}
+
+.prod-short {
+  
 }
 
 /* Styles for view - Details */
 
+.view-wrapper {
+  max-width: 1000px;
+  margin: 25px auto;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
 .detail-wrapper {
-  height: 500px
+  height: 500px;
+  margin: 5px auto;
 }
 
 .review-wrapper {
-  max-width: 500px
-
+  max-width: 500px;
+  margin: 15px 15px 25px;
+  text-align: justify;
 }
 
 .pictures {
   float: left;
-  max-width: 500px
+  max-width: 400px;
+  margin: 15px 15px auto;
+  border-radius: 5px;
 }
 
 .details {
   float: right;
-  max-width: 700px;
+  max-width: 500px;
+  margin: 15px 15px auto;
+  text-align: justify;
+  border-radius: 5px;
 }
 
 .name {
