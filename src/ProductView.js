@@ -9,7 +9,7 @@ module.exports = {
             return m("a.product-list-item.panel", 
               { href: "/details/" + product.id, 
                 oncreate: m.route.link,
-                'style': { 'background-image' : 'url(\"src/assets/images/1001.jpg\")',
+                'style': { 'background-image' : 'url(\"src/assets/images/' + product.id +'.jpg\")',
                             'background-position': 'center center'}
               }, 
               m("p.prod-details", product.name + " | " + product.cost +" | "+ "Rating  " + product.rating + " | " + product.short)
