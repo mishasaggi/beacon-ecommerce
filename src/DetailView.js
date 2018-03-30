@@ -4,9 +4,21 @@ var Product = require("./ProductModel")
 module.exports = {
     oninit: function(vnode) {Product.loadDetailed(vnode.attrs.id)},
     view: function() {
-        return m("main", [
-            m("h1", {class: "title"}, "Product Details"),
-            m("button", "dummy Add to Cart")
+        return m(".row.detail-wrapper", [
+          m(".pictures",
+              {
+                'style': { 'background-image' : 'url(\"src/assets/images/1001.jpg\")',
+                            'background-position': 'center center',
+                            height: '400px',
+                            width: '400px'}
+              }, ''),
+          m(".details", [
+            m("h1", {class: "title"}, Product.current.name),
+            m("h2", {class: "cost"}, Product.current.cost),
+            m("h3", {class: "rating"}, Product.current.rating +" stars"),
+            m("h3", {class: "long"}, Product.current.long),
+            m("a.button", {href: "", onclick: function(e) {e.preventDefault();}}, "Add to Cart")
+          ])
         ])
     }
 }
