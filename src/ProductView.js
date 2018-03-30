@@ -10,9 +10,19 @@ module.exports = {
               { href: "/details/" + product.id, 
                 oncreate: m.route.link,
                 'style': { 'background-image' : 'url(\"src/assets/images/' + product.id +'.jpg\")',
-                            'background-position': 'center center'}
+                            'background-position': 'center center',
+                            'background-size': 'cover'
+                          }
               }, 
-              m("p.prod-details", product.name + " | " + product.cost +" | "+ "Rating  " + product.rating + " | " + product.short)
+              m("p.prod-details", [
+                m("span.prod-name", product.name),
+                m("span.prod-cost", product.cost),
+                m("br"),
+                m("span.prod-rating", "  Rating  " + product.rating + " stars"),
+                m("br"),
+                m("span.prod-short", product.short)
+              ])
+                 //product.name + " | " + product.cost +" | "+ "Rating  " + product.rating + " | " + product.short
             )
         }))
     }

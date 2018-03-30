@@ -15,7 +15,7 @@ var Product = {
               name:'LIFX(A9) Smart LED Light Bulb', 
               cost: '$59.99', 
               rating: '3', 
-              short: 'Adjustable, Multicolor, Dimmable, No Hub Required, Works with Alexa, Apple HomeKit and the Google Assistant.',
+              short: 'Adjustable, Multicolor, Dimmable, No Hub Required.',
               long: 'Works with Amazon Alexa to support dimming, shades of white, and color settings through voice control (Alexa device sold separately) \n 16 million colors and warm to cool whites \n Easy to set up, built in wifi - no hub required \n Bright - equivalent to 75W bulb. Beam Angle: 135 degrees \n Works with Alexa, Apple HomeKit and Google Assistant'
             },
 
@@ -28,10 +28,10 @@ var Product = {
             },
 
             { id: 2001, 
-              name: 'August Smart Lock Pro + Connect, 3rd gen', 
+              name: 'August Smart LockPro + Connect', 
               cost: '$249.00', 
               rating: '3.5', 
-              short: 'Always know who is coming and going.',
+              short: '3rd gen. Always know who is coming and going.',
               long: 'Works with Amazon Alexa for voice control (hub required and included, Alexa device sold separately) \n Control and monitor your door from anywhere. Lock and unlock your door, control keyless access and keep track of who comes and goes, all from your phone'
             },
 
@@ -44,7 +44,7 @@ var Product = {
             },
 
             { id: 2003, 
-              name: 'YEELITE Smart WiFi LED Light Strip', 
+              name: 'YEELITE wifi LED Light Strip', 
               cost: '$29.89', 
               rating: '5', 
               short: 'Multi Applications',
@@ -85,7 +85,7 @@ var Product = {
            { id: 6003, name: 'c6', cost: '$45.99', rating: '3.2', short: 'this is a short description'},
            { id: 7001, name: 'a7', cost: '$100.89', rating: '3.2', short: 'this is a short description'},
            { id: 7002, name: 'b7', cost: '$110.89', rating: '3.2', short: 'this is a short description'},
-           { id: 7003, name: 'feature your product here'}
+           { id: 7003, name: 'feature your product here', cost: '', rating: 4.9, short: ''}
            ],
     loadList: function() {
         // NEXT: load from local storage or request to external database like DynamoDB
@@ -193,8 +193,8 @@ var Product = {
                                         }]
                             ,'7003' : [{ rating: 5,
                                           review: "Love it."},
-                                        { rating: 2,
-                                          review: "It's alright."
+                                        { rating: 4,
+                                          review: "Cool product."
                                         }]
     },
     current: {},
