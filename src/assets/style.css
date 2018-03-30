@@ -23,7 +23,6 @@ p {
   grid-gap: 10px;
 }
 
-
 /* no grid support? */
 
 .wrapper {
@@ -86,9 +85,9 @@ p {
   font: 14px SansSerif;
 }
 
-/* Styles for page - Details */
+/* Styles for view - Details */
+
 .detail-wrapper {
- /*max-width: 500px;*/
 }
 
 .pictures {
@@ -125,8 +124,6 @@ p {
   line-height: 50px;
   padding-right: 15px;
   padding-left: 35px;
-  /*position: relative;*/
-  /*background-color:rgb(41,127,184);*/
   background: #1abc9c;
   color:rgb(255,255,255);
   text-decoration: none;
@@ -147,10 +144,4 @@ p {
   -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
   filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
 }
-
-
-
-
-
-
 
