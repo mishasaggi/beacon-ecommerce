@@ -85,7 +85,7 @@ var Product = {
            { id: 6003, name: 'c6', cost: '$45.99', rating: '3.2', short: 'this is a short description'},
            { id: 7001, name: 'a7', cost: '$100.89', rating: '3.2', short: 'this is a short description'},
            { id: 7002, name: 'b7', cost: '$110.89', rating: '3.2', short: 'this is a short description'},
-           { id: 7003, name: 'feature your product here'}
+           { id: 7003, name: 'feature your product here', cost: '', rating: 4.9, short: ''}
            ],
     loadList: function() {
         // NEXT: load from local storage or request to external database like DynamoDB

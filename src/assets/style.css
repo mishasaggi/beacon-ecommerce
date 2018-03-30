@@ -68,11 +68,11 @@ p {
 }
 
 .product-list-item {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .product-list-item:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 /*Product list info*/
@@ -83,6 +83,11 @@ p {
   color: white;
   margin: 230px 0 0 0;
   font: 14px SansSerif;
+}
+
+.prod-details hover{
+  /*vertical-align: bottom;*/
+  background-color: cyan;
 }
 
 /* Styles for view - Details */
