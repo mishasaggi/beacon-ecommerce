@@ -1,5 +1,8 @@
 # Spotlight eCommerce
 
+### deployed at
+spotlight-ecommerce.surge.sh
+
 ### To run it locally
 1. Clone down the repo
 2. Run 'npm install'
